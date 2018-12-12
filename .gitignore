@@ -1,0 +1,8 @@
+
+.idea/
+*.iml
+*/*.iml
+*/*.DS_Store
+*.DS_Store
+sc-f-chapter1/.DS_Store
+.DS_Store

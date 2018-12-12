@@ -22,6 +22,7 @@ public class HiController {
 
     @GetMapping(value = "/hi")
     public String sayHi(@RequestParam String name) {
+        System.out.println("http://SERVICE-HI/hi?name=" + name);
         return schedualServiceHi.sayHiFromClientOne( name );
     }
 }
