@@ -24,11 +24,4 @@ public class HiController {
     public String sayHi(@RequestParam String name) {
         return schedualServiceHi.sayHiFromClientOne( name );
     }
-
-    @GetMapping(value = "/client")
-    public String client() {
-        return schedualServiceHi.client();
-    }
-
-
 }
